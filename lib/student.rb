@@ -12,7 +12,7 @@ class Student < User
   end
  
  def knowledge
-   teach
+   @knowledge
  end
 
 end
