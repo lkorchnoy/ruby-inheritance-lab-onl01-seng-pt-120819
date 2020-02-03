@@ -7,11 +7,7 @@ class Teacher < User
     super
   end
 
-  def teach
-    knowledge = KNOWLEDGE
-    knowledge.select {|knowledge| knowledge == student.knowldege }
-    knowldege.join(" , ") 
-  end
+  
   
     
 
