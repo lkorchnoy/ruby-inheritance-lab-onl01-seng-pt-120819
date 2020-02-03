@@ -7,7 +7,10 @@ class Teacher < User
     super
   end
 
-  
+  def teach
+    KNOWLEDGE.sample
+  end
+
   
     
 
